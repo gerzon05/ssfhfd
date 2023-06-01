@@ -1,0 +1,194 @@
+@media (max-width:500px){
+    body{
+        margin: 0;
+        background: #E5E5E5;
+        /* z-index: 0; */
+    }
+    *{
+        font-family: 'Work Sans', sans-serif;
+    }
+    .principal{
+        padding: 4% 8% 0 8%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .primero{
+    gap: 10px;
+    display: flex;
+    width: 35%;
+    }
+    nav .primero .barra{
+        padding: 5% 5% 3% 5%;
+        width: 33%;
+        border: 1px solid rgba(55, 73, 87, 0.2);
+        border-radius: 9.15036px;
+    }
+    nav .primero .barra .uno{
+        height: 3px;
+        background: black;
+        border: 0;
+        border-radius: 25px;
+    }
+    nav .primero .barra .dos{
+        height: 3px;
+        background: black;
+        border: 0;
+        width: 72%;
+        border-radius: 25px;
+    }
+    nav .primero .barra .uno1{
+        margin: 19% 0 0 0;
+        padding: 0% 0;
+    }
+    nav .primero .barra .dos2{
+    margin: 10% 0 0 0;
+    }
+    nav .primero .barra .tres{
+        margin: 10% 0 0 0;
+    }
+    nav .primero .barra .cuatro{
+        margin: 10% 0 0 0;
+    }
+    nav .primero .logo img{
+        width: 100%;
+    }
+    
+    nav .comprar{
+    padding: 2%;
+    width: 9%;
+    border: 1px solid rgba(55, 73, 87, 0.2);
+    border-radius: 9.15036px;
+    text-align: center;
+    }
+    nav .comprar img{
+        width: 100%;
+    }
+
+    .parte1{
+        display: flex;
+        padding: 6% 0;
+        background: #EFEFEF;
+        border-radius: 20.5883px;
+        position: relative;
+        align-items: center;
+        margin-top: 10%;
+    }
+    .parte1 .texto{
+        width: 63%;
+        padding-left: 11%;
+        padding: 8% 0 8% 11%;
+    }
+    .parte1 .texto h2{
+        margin: 0;
+        font-size: 32px;
+    }
+    .parte1 .texto p{
+        margin: 0 0 8% 0;
+        font-size: 17px;
+    }
+    .parte1 .texto button{
+        background: black;
+        padding: 3% 7%;
+        border: 0;
+        border-radius: 25px;
+    }
+    .parte1 .texto button a{
+        color: white;
+        text-decoration: none;
+    }
+    .parte1 .imagen{
+        width: 70%;
+        position: absolute;
+        left: 38%;
+    }
+    .parte1 .imagen img{
+        width: 100%;
+    }
+
+    .parte2{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    padding: 5% 0;
+    }
+    .parte2 button{
+        border:0px;
+        background: transparent;
+        font-size: 21px;
+        padding: 0;
+    }
+    .parte2 button a{
+        color: #9C9C9C;
+        text-decoration: none;
+    }
+    .parte2 button:active{
+        background:black;
+        border-radius: 25px;
+        padding: 1% 5%;
+    }
+    .parte2 button a:active{
+        color: white;
+        text-decoration: none;
+    }
+
+    .parte3{
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .parte3 .col{
+        width: 38%;
+        background: #EFEFEF;
+        border-radius: 20.5883px;
+        padding: 6% 5%;
+        position: relative;
+    }
+    .parte3 .col .img{
+        width: 100%;
+    }
+    .parte3 .col .vector{
+        position: absolute;
+        right: 10%;
+        top: 81%;
+        background: #FFFFFF;
+        border: 0.794302px solid rgba(55, 73, 87, 0.2);
+        border-radius: 6.35441px;
+        width: 14%;
+    }
+    .parte3 .col .vector img{
+        width: 100%;
+    }
+    .parte3 .columna1 h2, .parte3 .columna2 h2{
+        margin: 10% 0 0 0;
+    }
+    .parte3 .columna1 h4, .parte3 .columna2 h4{
+        margin: 10% 0 0 0;
+    }
+    .parte3 .columna3 h2, .parte3 .columna4 h2{
+        margin: 10% 0 0 0;
+    }
+    .parte3 .columna3 h4, .parte3 .columna4 h4{
+        margin: 10% 0 0 0;
+    }
+    .parte3 .columna3 .img{
+        margin-bottom: 14%;
+    }
+
+    footer{
+        width: 80%;
+        display: flex;
+        justify-content:space-between;
+        padding: 10% 10%;
+        background: white;
+        box-shadow: 0px -1.14379px 11.4379px rgba(0, 0, 0, 0.1);
+        border-radius:  20.5883px 20.5883px 0 0;
+        position: fixed;
+        top: 85%;
+        background-image: url(../piedepagina/vector.png);
+        background-repeat: no-repeat;
+        background-position: 4% 0%;
+        background-size: 20%;
+    }
+}
